@@ -23,6 +23,7 @@
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		757C31238F6825BAF9C318C0 /* Pods_HWPopView_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB438D8802AACE173C307EAF /* Pods_HWPopView_Tests.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		CC00135C23B33C18006D8F6E /* ScreenRecording_12-25-2019-14-34-59.gif in Resources */ = {isa = PBXBuildFile; fileRef = CC00135B23B33C18006D8F6E /* ScreenRecording_12-25-2019-14-34-59.gif */; };
 		CD119F576DAE36C9324C4F7F /* Pods_HWPopView_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9006F0A84B8DCC849800BA2B /* Pods_HWPopView_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -66,6 +67,7 @@
 		9AAB7C2B6DF44AD5C4BC07AC /* HWPopView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HWPopView.podspec; path = ../HWPopView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9C90FB238B88551106FD5DA7 /* Pods-HWPopView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HWPopView_Tests.release.xcconfig"; path = "Target Support Files/Pods-HWPopView_Tests/Pods-HWPopView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		CB4783293A87F920AB73838D /* Pods-HWPopView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HWPopView_Example.release.xcconfig"; path = "Target Support Files/Pods-HWPopView_Example/Pods-HWPopView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		CC00135B23B33C18006D8F6E /* ScreenRecording_12-25-2019-14-34-59.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "ScreenRecording_12-25-2019-14-34-59.gif"; sourceTree = "<group>"; };
 		DB438D8802AACE173C307EAF /* Pods_HWPopView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HWPopView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -109,6 +111,7 @@
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
+				CC00135A23B33C02006D8F6E /* gif */,
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* Example for HWPopView */,
 				6003F5B5195388D20070C39A /* Tests */,
@@ -194,6 +197,14 @@
 				040950FA2523F265102EDE57 /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		CC00135A23B33C02006D8F6E /* gif */ = {
+			isa = PBXGroup;
+			children = (
+				CC00135B23B33C18006D8F6E /* ScreenRecording_12-25-2019-14-34-59.gif */,
+			);
+			path = gif;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -284,6 +295,7 @@
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
+				CC00135C23B33C18006D8F6E /* ScreenRecording_12-25-2019-14-34-59.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
