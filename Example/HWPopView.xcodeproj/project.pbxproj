@@ -37,8 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		040950FA2523F265102EDE57 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		131A04FE29410447F8420D1B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		040950FA2523F265102EDE57 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		131A04FE29410447F8420D1B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		53D8702F8E291F324D13402E /* Pods-HWPopView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HWPopView_Tests.debug.xcconfig"; path = "Target Support Files/Pods-HWPopView_Tests/Pods-HWPopView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* HWPopView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HWPopView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -63,7 +63,7 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8F62C78AB48A6DB5C5D42C79 /* Pods-HWPopView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HWPopView_Example.debug.xcconfig"; path = "Target Support Files/Pods-HWPopView_Example/Pods-HWPopView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		9006F0A84B8DCC849800BA2B /* Pods_HWPopView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HWPopView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9AAB7C2B6DF44AD5C4BC07AC /* HWPopView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = HWPopView.podspec; path = ../HWPopView.podspec; sourceTree = "<group>"; };
+		9AAB7C2B6DF44AD5C4BC07AC /* HWPopView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HWPopView.podspec; path = ../HWPopView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9C90FB238B88551106FD5DA7 /* Pods-HWPopView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HWPopView_Tests.release.xcconfig"; path = "Target Support Files/Pods-HWPopView_Tests/Pods-HWPopView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		CB4783293A87F920AB73838D /* Pods-HWPopView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HWPopView_Example.release.xcconfig"; path = "Target Support Files/Pods-HWPopView_Example/Pods-HWPopView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		DB438D8802AACE173C307EAF /* Pods_HWPopView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HWPopView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -103,7 +103,6 @@
 				53D8702F8E291F324D13402E /* Pods-HWPopView_Tests.debug.xcconfig */,
 				9C90FB238B88551106FD5DA7 /* Pods-HWPopView_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -248,6 +247,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "330200387@qq.com";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = S993VCFF58;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -258,6 +260,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -494,6 +497,7 @@
 			baseConfigurationReference = 8F62C78AB48A6DB5C5D42C79 /* Pods-HWPopView_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = S993VCFF58;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HWPopView/HWPopView-Prefix.pch";
 				INFOPLIST_FILE = "HWPopView/HWPopView-Info.plist";
@@ -510,6 +514,7 @@
 			baseConfigurationReference = CB4783293A87F920AB73838D /* Pods-HWPopView_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = S993VCFF58;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HWPopView/HWPopView-Prefix.pch";
 				INFOPLIST_FILE = "HWPopView/HWPopView-Info.plist";

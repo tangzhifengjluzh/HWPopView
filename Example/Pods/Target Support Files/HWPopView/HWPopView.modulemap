@@ -1,0 +1,6 @@
+framework module HWPopView {
+  umbrella header "HWPopView-umbrella.h"
+
+  export *
+  module * { export * }
+}

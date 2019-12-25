@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'HWPopView'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of HWPopView.'
+  s.summary          = 'ios添加蒙板效果'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/330200387@qq.com/HWPopView'
+  s.homepage         = 'https://github.com/tangzhifengjluzh/HWPopView.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '330200387@qq.com' => '330200387@qq.com' }
-  s.source           = { :git => 'https://github.com/330200387@qq.com/HWPopView.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/tangzhifengjluzh/HWPopView.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
