@@ -31,6 +31,7 @@ it, simply add the following line to your Podfile:
 pod 'HWPopView'
 ```
 ## 用法
+```ruby
 在.h或.m文件导入 #import <UIViewController+Pop.h>
     UIButton *content = [UIButton buttonWithType:UIButtonTypeCustom];
     [content addTarget:self action:@selector(click:) forControlEvents:UIControlEventTouchUpInside];
@@ -46,6 +47,7 @@ pod 'HWPopView'
         [sender.superview removeFromSuperview];
     }
 }
+```
 ## Author
 
 330200387@qq.com, 330200387@qq.com
