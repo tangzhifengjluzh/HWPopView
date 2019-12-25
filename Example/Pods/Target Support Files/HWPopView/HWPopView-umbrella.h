@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "UIViewController+Pop.h"
 
 FOUNDATION_EXPORT double HWPopViewVersionNumber;
 FOUNDATION_EXPORT const unsigned char HWPopViewVersionString[];

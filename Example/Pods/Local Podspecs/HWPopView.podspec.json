@@ -1,9 +1,9 @@
 {
   "name": "HWPopView",
   "version": "0.1.0",
-  "summary": "A short description of HWPopView.",
+  "summary": "ios添加蒙板效果",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/330200387@qq.com/HWPopView",
+  "homepage": "https://github.com/tangzhifengjluzh/HWPopView.git",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,7 +12,7 @@
     "330200387@qq.com": "330200387@qq.com"
   },
   "source": {
-    "git": "https://github.com/330200387@qq.com/HWPopView.git",
+    "git": "https://github.com/tangzhifengjluzh/HWPopView.git",
     "tag": "0.1.0"
   },
   "platforms": {

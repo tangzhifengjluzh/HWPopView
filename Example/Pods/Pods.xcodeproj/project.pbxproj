@@ -9,15 +9,15 @@
 /* Begin PBXBuildFile section */
 		072E74D0F8610CF095D680554C1D4769 /* Pods-HWPopView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 82638A0F60728ECD07307A4EC2690C52 /* Pods-HWPopView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		19C8C237B56B001ACA02D5A748C6D243 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		6647D266B188D665120B375897BE9C89 /* HWPopView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 18EEBAC4E506B7D6D3FEF1736E42E9E1 /* HWPopView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2AFB03AADB53AE30685E98FFDB0CD434 /* HWPopView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A320F1A827F241ED7A7403C262B1385 /* HWPopView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2ECCBB53A5EEF12B4F17B0EC37DAFD5C /* UIViewController+Pop.m in Sources */ = {isa = PBXBuildFile; fileRef = DFFB78325AFCB18C9DBFD0EE85E701FF /* UIViewController+Pop.m */; };
+		67DA9C00904C7AC2B4256AE214B50FD2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		941971F9ED8D82E249AD211E06C3E2FD /* HWPopView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E8A21C9807F28FE353271A862017718C /* HWPopView-dummy.m */; };
 		980A822EB4E1F69211B0D81ED0C8BAE1 /* Pods-HWPopView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F2A6F93CB29CF59D2D30D2446C2C3839 /* Pods-HWPopView_Example-dummy.m */; };
 		A01F10BC95A6809325062659763CA8D7 /* Pods-HWPopView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E14E3B488C81F40AB0C1136C5E4E496 /* Pods-HWPopView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B40D445799D4E48FE6A7AADAD829FE01 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		B5B652929DECA2C2A67F4DDBFF5373DE /* Pods-HWPopView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AD141DEF77F8852AD9F093E66245018 /* Pods-HWPopView_Tests-dummy.m */; };
-		BD66D6366F523ACA2D785A4F59F18086 /* HWPopView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BD064D4578EE64F28E542726C2773DC /* HWPopView-dummy.m */; };
-		CC365AC023B2F0E1002DBD9D /* UIViewController+Pop.h in Headers */ = {isa = PBXBuildFile; fileRef = CC365ABE23B2F0E1002DBD9D /* UIViewController+Pop.h */; };
-		CC365AC123B2F0E1002DBD9D /* UIViewController+Pop.m in Sources */ = {isa = PBXBuildFile; fileRef = CC365ABF23B2F0E1002DBD9D /* UIViewController+Pop.m */; };
 		CF9A5829A8EA866F8756FB213B572427 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		FD191DE564FAE99DD81B8F4EB55222D4 /* UIViewController+Pop.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E7D350B6BEB6F28B6D7844350F76EBE /* UIViewController+Pop.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,36 +39,37 @@
 
 /* Begin PBXFileReference section */
 		0B80BE44ADE9F57B45E585E2D58B4DE7 /* Pods-HWPopView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HWPopView_Example-frameworks.sh"; sourceTree = "<group>"; };
-		0BB29B0776107625099E0893C158D2AF /* HWPopView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HWPopView-Info.plist"; sourceTree = "<group>"; };
 		15FB6BA3426A948F5D3629D2CC943882 /* Pods-HWPopView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HWPopView_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		18EEBAC4E506B7D6D3FEF1736E42E9E1 /* HWPopView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HWPopView-umbrella.h"; sourceTree = "<group>"; };
+		18FB0EE7927597353F7BF1B7DC2F7D51 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		1E14E3B488C81F40AB0C1136C5E4E496 /* Pods-HWPopView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HWPopView_Tests-umbrella.h"; sourceTree = "<group>"; };
 		2B75EB57487493F743381CBC38C71102 /* Pods-HWPopView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HWPopView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		4FEC09CC3B8C59523CAC2029FEAC6A5E /* HWPopView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HWPopView-prefix.pch"; sourceTree = "<group>"; };
+		40CD8983A06B717C3153C0B57B48F6FB /* HWPopView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = HWPopView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		40D8AABC998B4FCFCB33EBD1050C6AEA /* HWPopView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HWPopView.debug.xcconfig; sourceTree = "<group>"; };
+		42C8538EFBE261B1B35E814EC0870D9B /* HWPopView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HWPopView-prefix.pch"; sourceTree = "<group>"; };
+		4A320F1A827F241ED7A7403C262B1385 /* HWPopView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HWPopView-umbrella.h"; sourceTree = "<group>"; };
 		55E733F7D3C9B6D427CDF22E8D57412E /* Pods-HWPopView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HWPopView_Tests.modulemap"; sourceTree = "<group>"; };
-		5B389EA827F09ACBC53503EA79CEB91B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		6299D437756CBC7904CA6A89456D1E95 /* Pods-HWPopView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HWPopView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		6483E72EAEB362BA3DA2BD1F499EB626 /* Pods-HWPopView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HWPopView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		6AD141DEF77F8852AD9F093E66245018 /* Pods-HWPopView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HWPopView_Tests-dummy.m"; sourceTree = "<group>"; };
-		766307FF027002C7E055CC44AC693710 /* HWPopView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HWPopView.xcconfig; sourceTree = "<group>"; };
+		6E7D350B6BEB6F28B6D7844350F76EBE /* UIViewController+Pop.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+Pop.h"; path = "HWPopView/Classes/UIViewController+Pop.h"; sourceTree = "<group>"; };
 		82638A0F60728ECD07307A4EC2690C52 /* Pods-HWPopView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HWPopView_Example-umbrella.h"; sourceTree = "<group>"; };
-		8BD064D4578EE64F28E542726C2773DC /* HWPopView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HWPopView-dummy.m"; sourceTree = "<group>"; };
+		84945D89DF685A1EF59C4F8A3A864311 /* HWPopView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HWPopView.modulemap; sourceTree = "<group>"; };
 		99A5123E36A14652DC5F63AAC475357D /* Pods-HWPopView_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HWPopView_Tests-Info.plist"; sourceTree = "<group>"; };
 		9A169B9D736C38B4E3B9FDC93BDE5872 /* Pods-HWPopView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HWPopView_Example.modulemap"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A0EE184B0FFC5072369D332A8BE9FCF8 /* Pods-HWPopView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HWPopView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		A7FC48968728497C71DCAAF98E1B3CA2 /* Pods-HWPopView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HWPopView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A88B943FF884ABE9DFFA02E540244673 /* HWPopView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HWPopView.release.xcconfig; sourceTree = "<group>"; };
 		B05D306C046C0623F38F527726B07321 /* Pods-HWPopView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HWPopView_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		C34956160153110763F4287A97DE270D /* Pods_HWPopView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HWPopView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CC365ABE23B2F0E1002DBD9D /* UIViewController+Pop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIViewController+Pop.h"; path = "HWPopView/Classes/UIViewController+Pop.h"; sourceTree = "<group>"; };
-		CC365ABF23B2F0E1002DBD9D /* UIViewController+Pop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+Pop.m"; path = "HWPopView/Classes/UIViewController+Pop.m"; sourceTree = "<group>"; };
+		B35D72E546E637A8FBAA876307066F97 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		C34956160153110763F4287A97DE270D /* Pods_HWPopView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HWPopView_Tests.framework; path = "Pods-HWPopView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5B3C4975FFF5ECD8C829F1F91FA4D85 /* HWPopView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HWPopView-Info.plist"; sourceTree = "<group>"; };
 		D19BEA5B6654C9BFDDF012DCD999471C /* Pods-HWPopView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HWPopView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		D7AE5C5543942B1CEFAD35294B07478C /* HWPopView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HWPopView.modulemap; sourceTree = "<group>"; };
-		DCBFE940FBAAD8F352FA8F6973F81E7C /* HWPopView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HWPopView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EEFD5116B7FCC106F40DABCEEEC37AA2 /* Pods_HWPopView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HWPopView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EF43575940425D6ED62FF24D197B649C /* HWPopView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = HWPopView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		F159BB2B797AE59B170B2EED45C07A7B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		DCBFE940FBAAD8F352FA8F6973F81E7C /* HWPopView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HWPopView.framework; path = HWPopView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFFB78325AFCB18C9DBFD0EE85E701FF /* UIViewController+Pop.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+Pop.m"; path = "HWPopView/Classes/UIViewController+Pop.m"; sourceTree = "<group>"; };
+		E8A21C9807F28FE353271A862017718C /* HWPopView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HWPopView-dummy.m"; sourceTree = "<group>"; };
+		EEFD5116B7FCC106F40DABCEEEC37AA2 /* Pods_HWPopView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HWPopView_Example.framework; path = "Pods-HWPopView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F209D31A6C7AA82E25F241A6CD413397 /* Pods-HWPopView_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HWPopView_Example-Info.plist"; sourceTree = "<group>"; };
 		F2A6F93CB29CF59D2D30D2446C2C3839 /* Pods-HWPopView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HWPopView_Example-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -82,6 +83,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		ACC84D7F8921AD77A4FE6D71B0FBF9F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67DA9C00904C7AC2B4256AE214B50FD2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DD826AD1AD84085BE8F05EB54F321A99 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -90,29 +99,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FD68ED1C4D771D566F98BB5C50A759E7 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B40D445799D4E48FE6A7AADAD829FE01 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0C6A4F0C1A407B690FB113FEE321DF95 /* HWPopView */ = {
-			isa = PBXGroup;
-			children = (
-				CC365ABE23B2F0E1002DBD9D /* UIViewController+Pop.h */,
-				CC365ABF23B2F0E1002DBD9D /* UIViewController+Pop.m */,
-				44E5C90A1B97063738242E72759694EC /* Pod */,
-				1C715781060F9B2818B5F1E26C63584D /* Support Files */,
-			);
-			name = HWPopView;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		0EEE5AB3072AAB9741186BBBA6502BD6 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -120,28 +109,6 @@
 				C7A84E4E477EDD97FBA0D624636730C8 /* Pods-HWPopView_Tests */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		1C715781060F9B2818B5F1E26C63584D /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				D7AE5C5543942B1CEFAD35294B07478C /* HWPopView.modulemap */,
-				766307FF027002C7E055CC44AC693710 /* HWPopView.xcconfig */,
-				8BD064D4578EE64F28E542726C2773DC /* HWPopView-dummy.m */,
-				0BB29B0776107625099E0893C158D2AF /* HWPopView-Info.plist */,
-				4FEC09CC3B8C59523CAC2029FEAC6A5E /* HWPopView-prefix.pch */,
-				18EEBAC4E506B7D6D3FEF1736E42E9E1 /* HWPopView-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/HWPopView";
-			sourceTree = "<group>";
-		};
-		226EC29375C40D86811BFC61619EFC97 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				0C6A4F0C1A407B690FB113FEE321DF95 /* HWPopView */,
-			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		23316611B1003CD4D37E453C8CC5DBF8 /* Pods-HWPopView_Example */ = {
@@ -161,14 +128,24 @@
 			path = "Target Support Files/Pods-HWPopView_Example";
 			sourceTree = "<group>";
 		};
-		44E5C90A1B97063738242E72759694EC /* Pod */ = {
+		30FFCE872834196BA6E5DEDB1F89AB71 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				EF43575940425D6ED62FF24D197B649C /* HWPopView.podspec */,
-				5B389EA827F09ACBC53503EA79CEB91B /* LICENSE */,
-				F159BB2B797AE59B170B2EED45C07A7B /* README.md */,
+				4FF95FEC87F9EBEFDB8DAF41041240C7 /* HWPopView */,
 			);
-			name = Pod;
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		4FF95FEC87F9EBEFDB8DAF41041240C7 /* HWPopView */ = {
+			isa = PBXGroup;
+			children = (
+				6E7D350B6BEB6F28B6D7844350F76EBE /* UIViewController+Pop.h */,
+				DFFB78325AFCB18C9DBFD0EE85E701FF /* UIViewController+Pop.m */,
+				B567408D74DE83C9ED7C6517E07F14DB /* Pod */,
+				B390976FD97BCF0DDFA671F301A13AD0 /* Support Files */,
+			);
+			name = HWPopView;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		7A8D9A57FFA0E92E87C4D25D33974812 /* Products */ = {
@@ -179,6 +156,31 @@
 				C34956160153110763F4287A97DE270D /* Pods_HWPopView_Tests.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		B390976FD97BCF0DDFA671F301A13AD0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				84945D89DF685A1EF59C4F8A3A864311 /* HWPopView.modulemap */,
+				E8A21C9807F28FE353271A862017718C /* HWPopView-dummy.m */,
+				C5B3C4975FFF5ECD8C829F1F91FA4D85 /* HWPopView-Info.plist */,
+				42C8538EFBE261B1B35E814EC0870D9B /* HWPopView-prefix.pch */,
+				4A320F1A827F241ED7A7403C262B1385 /* HWPopView-umbrella.h */,
+				40D8AABC998B4FCFCB33EBD1050C6AEA /* HWPopView.debug.xcconfig */,
+				A88B943FF884ABE9DFFA02E540244673 /* HWPopView.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/HWPopView";
+			sourceTree = "<group>";
+		};
+		B567408D74DE83C9ED7C6517E07F14DB /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				40CD8983A06B717C3153C0B57B48F6FB /* HWPopView.podspec */,
+				18FB0EE7927597353F7BF1B7DC2F7D51 /* LICENSE */,
+				B35D72E546E637A8FBAA876307066F97 /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -209,7 +211,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				226EC29375C40D86811BFC61619EFC97 /* Development Pods */,
+				30FFCE872834196BA6E5DEDB1F89AB71 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				7A8D9A57FFA0E92E87C4D25D33974812 /* Products */,
 				0EEE5AB3072AAB9741186BBBA6502BD6 /* Targets Support Files */,
@@ -235,20 +237,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9895471A22275843CA569764542CCB94 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6647D266B188D665120B375897BE9C89 /* HWPopView-umbrella.h in Headers */,
-				CC365AC023B2F0E1002DBD9D /* UIViewController+Pop.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		B59C2692855DEC7B7FD155A4910EAA7F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				A01F10BC95A6809325062659763CA8D7 /* Pods-HWPopView_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E049DAAFB34FCC5770B71C51F2127E44 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AFB03AADB53AE30685E98FFDB0CD434 /* HWPopView-umbrella.h in Headers */,
+				FD191DE564FAE99DD81B8F4EB55222D4 /* UIViewController+Pop.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,12 +278,12 @@
 		};
 		962D92E16F7D0AAFBDD38556ACFCEADC /* HWPopView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 356D36E31E5678F273849602AB466903 /* Build configuration list for PBXNativeTarget "HWPopView" */;
+			buildConfigurationList = 17F64D7A1C74F919CDA46E58DED881B3 /* Build configuration list for PBXNativeTarget "HWPopView" */;
 			buildPhases = (
-				9895471A22275843CA569764542CCB94 /* Headers */,
-				F9802F87BB1F9C410C5BFBDB287169C4 /* Sources */,
-				FD68ED1C4D771D566F98BB5C50A759E7 /* Frameworks */,
-				EAC26C83CC1651A3F597AA5D86C476D7 /* Resources */,
+				E049DAAFB34FCC5770B71C51F2127E44 /* Headers */,
+				1C8789F6614A3D02F038996421380DFC /* Sources */,
+				ACC84D7F8921AD77A4FE6D71B0FBF9F8 /* Frameworks */,
+				86227AD67712C2E3370F2A36D5C8D4FA /* Resources */,
 			);
 			buildRules = (
 			);
@@ -355,7 +357,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EAC26C83CC1651A3F597AA5D86C476D7 /* Resources */ = {
+		86227AD67712C2E3370F2A36D5C8D4FA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -365,6 +367,15 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		1C8789F6614A3D02F038996421380DFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				941971F9ED8D82E249AD211E06C3E2FD /* HWPopView-dummy.m in Sources */,
+				2ECCBB53A5EEF12B4F17B0EC37DAFD5C /* UIViewController+Pop.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8AD4A7B12F0EBA3B3FA29E4F19ECDF70 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -378,15 +389,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				980A822EB4E1F69211B0D81ED0C8BAE1 /* Pods-HWPopView_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F9802F87BB1F9C410C5BFBDB287169C4 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CC365AC123B2F0E1002DBD9D /* UIViewController+Pop.m in Sources */,
-				BD66D6366F523ACA2D785A4F59F18086 /* HWPopView-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -408,9 +410,9 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		3BA91DD974855C836E272AD447C202D9 /* Debug */ = {
+		45627ECB4B07EBDA9D8AE1C247DC4098 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 766307FF027002C7E055CC44AC693710 /* HWPopView.xcconfig */;
+			baseConfigurationReference = 40D8AABC998B4FCFCB33EBD1050C6AEA /* HWPopView.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -525,7 +527,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -563,38 +566,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		5F9337562AA403091FE91B25E7066FA1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 766307FF027002C7E055CC44AC693710 /* HWPopView.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/HWPopView/HWPopView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/HWPopView/HWPopView-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/HWPopView/HWPopView.modulemap";
-				PRODUCT_MODULE_NAME = HWPopView;
-				PRODUCT_NAME = HWPopView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -694,6 +665,38 @@
 			};
 			name = Release;
 		};
+		DFFF20A5916FC88656EB09DD66D377A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A88B943FF884ABE9DFFA02E540244673 /* HWPopView.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HWPopView/HWPopView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HWPopView/HWPopView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HWPopView/HWPopView.modulemap";
+				PRODUCT_MODULE_NAME = HWPopView;
+				PRODUCT_NAME = HWPopView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		E95B10B34B2D2D88F8ECAD2922AFDD48 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6299D437756CBC7904CA6A89456D1E95 /* Pods-HWPopView_Example.release.xcconfig */;
@@ -731,20 +734,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		17F64D7A1C74F919CDA46E58DED881B3 /* Build configuration list for PBXNativeTarget "HWPopView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45627ECB4B07EBDA9D8AE1C247DC4098 /* Debug */,
+				DFFF20A5916FC88656EB09DD66D377A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		1B24AA0471AE988350406E7B43377B5D /* Build configuration list for PBXNativeTarget "Pods-HWPopView_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4B89643B8A67F54A05923A583C072130 /* Debug */,
 				E95B10B34B2D2D88F8ECAD2922AFDD48 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		356D36E31E5678F273849602AB466903 /* Build configuration list for PBXNativeTarget "HWPopView" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3BA91DD974855C836E272AD447C202D9 /* Debug */,
-				5F9337562AA403091FE91B25E7066FA1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
